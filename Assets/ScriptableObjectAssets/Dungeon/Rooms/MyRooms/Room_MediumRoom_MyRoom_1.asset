@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_MediumRoom_MyRoom_1
+  m_EditorClassIdentifier: 
+  guid: 28cdf29daea1e68428c3e271a84b4c19
+  prefab: {fileID: 3388886641235302098, guid: 75b1125edc499e448b37e4bb05d3cf19, type: 3}
+  previousPrefab: {fileID: 3388886641235302098, guid: 75b1125edc499e448b37e4bb05d3cf19, type: 3}
+  roomNodeType: {fileID: 11400000, guid: 5e69ff1d70026484e9a2db3e6df14fd2, type: 2}
+  lowerBounds: {x: -22, y: -23}
+  upperBounds: {x: 39, y: 31}
+  doorwayList:
+  - position: {x: -7, y: 31}
+    orientation: 0
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: -10, y: 31}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 39, y: 17}
+    orientation: 1
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 36, y: 23}
+    doorwayCopyTileWidth: 4
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 24, y: -23}
+    orientation: 2
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 21, y: -18}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 6
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -22, y: -11}
+    orientation: 3
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: -22, y: -5}
+    doorwayCopyTileWidth: 4
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: -17, y: 17}
+  - {x: -7, y: 21}
+  - {x: 2, y: 17}
+  - {x: -7, y: 14}
+  - {x: 15, y: 17}
+  - {x: 24, y: 21}
+  - {x: 32, y: 17}
+  - {x: 24, y: 14}
+  - {x: 24, y: -7}
+  - {x: 33, y: -11}
+  - {x: 24, y: -14}
+  - {x: 15, y: -11}
+  - {x: 1, y: -11}
+  - {x: -7, y: -7}
+  - {x: -14, y: -11}
+  - {x: -7, y: -16}
